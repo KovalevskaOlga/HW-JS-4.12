@@ -1,0 +1,33 @@
+{
+  "name": "hw-js-4.12",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx parcel src/index.html",
+    "build": "parcel build src/index.html --no-cache --public-url ./",
+    "deploy": "gh-pages -d dist",
+    "predeploy": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KovalevskaOlga/HW-JS-4.12.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KovalevskaOlga/HW-JS-4.12/issues"
+  },
+  "homepage": "https://github.com/KovalevskaOlga/HW-JS-4.12#readme",
+  "devDependencies": {
+    "parcel": "^2.15.2",
+    "posthtml-include": "^2.0.1"
+  },
+  "dependencies": {
+    "@pnotify/core": "^5.2.0",
+    "gh-pages": "^6.3.0",
+    "handlebars": "^4.7.8",
+    "parcel-plugin-handlebars-precompile": "^1.0.2"
+  }
+}
